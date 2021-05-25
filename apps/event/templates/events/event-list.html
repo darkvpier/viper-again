@@ -1,6 +1,7 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
-	
 <head>
 		<title>Event - Landing Page</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
@@ -8,13 +9,13 @@
 		<meta name="description" content="">
 
 		<!--== CSS Files ==-->
-		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
-		<link href="css/style.css" rel="stylesheet" media="screen">
-		<link href="css/font-awesome.css" rel="stylesheet" media="screen">
-		<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-		<link href="css/flexslider.css" rel="stylesheet" media="screen">
-		<link href="css/fancySelect.css" rel="stylesheet" media="screen">
-		<link href="css/responsive.css" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/bootstrap.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/style.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/font-awesome.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/owl.carousel.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/flexslider.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/fancySelect.css' %}" rel="stylesheet" media="screen">
+		<link href="{% static 'events/css/responsive.css' %}" rel="stylesheet" media="screen">
 
 		<!--== Google Fonts ==-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -24,7 +25,8 @@
 
 	</head>
 	<body>
-		<header id="header">
+		
+		<!-- <header id="header">
 			<div id="menu" class="header-menu fixed">
 				<div class="box">
 					<div class="row">
@@ -37,16 +39,16 @@
 									<span class="icon-bar"></span>
 								</button>
 
-								<!--== Logo ==-->
+								<!-- == Logo ==
 								<span class="navbar-brand logo">
 									Evento
 								</span>
 
 							</div>
-							<div class="navbar-collapse collapse">
+							<div class="navbar-collapse collapse"> -->
 
 								<!--== Navigation Menu ==-->
-								<ul class="nav navbar-nav">
+								<!-- <ul class="nav navbar-nav">
 									<li class="current"><a href="#header">Home</a></li>
 									<li><a href="#about">About us</a></li>
 									<li><a href="#schedule">Schedule</a></li>
@@ -60,12 +62,12 @@
 						</nav>
 					</div>
 				</div>
-			</div>
+			</div> --> -->
 
 			<!--== Site Description ==-->
-			<div class="header-cta">
-				<div class="container">
-					<div class="row">
+			<!-- <div class="header-cta">
+				<div class="container"> -->
+					<!-- <div class="row">
 						<div class="entry-content">
 				            <p><span class="start-text"><b>From THE MARCH 7, 2014</b></span></p>
 				            <h4 class="entry-title"><a href="#">Organizing World class events</a></h4>
@@ -79,12 +81,12 @@
 				<div id="preloader">
 					<div class="preloader"></div>
 				</div>
-				<div class="main-slider" id="main-slider">
+				<div class="main-slider" id="main-slider"> --> -->
 
 					<!--== Main Slider ==-->
-					<ul class="slides">
-						<li><img src="images/demo/bg-slide-01.jpg" alt="Slide Image"/></li>
-						<li><img src="images/demo/bg-slide-02.jpg" alt="Slide Image 2"/></li>
+					<!-- <ul class="slides">
+						<li><img src="{% static 'images/demo/bg-slide-01.jpg' %}" alt="Slide Image"/></li>
+						<li><img src="{% static 'images/demo/bg-slide-02.jpg' %}" alt="Slide Image 2"/></li>
 					</ul>
 
 				</div>
@@ -92,13 +94,13 @@
 		</header>
 
 		<div class="content">
-			<div class="container box">
+			<div class="container box"> -->
 
 
 				<!--===============================-->
 				<!--== About us ===================-->
 				<!--===============================-->
-		<section id="about" class="about-us">
+		<!-- <section id="about" class="about-us">
 			<div class="title-start col-md-4 col-md-offset-4">
 			<br />
 				<h2>About Us</h2>
@@ -158,7 +160,7 @@
 			</div>
 			</div>
 		</section>
-				<!--==========-->
+				========== --> -->
 
 
 
@@ -207,7 +209,7 @@
 					        </div>
 					    </li>
 					    
-					    <li  class="timeline-inverted">
+					    <!-- <li  class="timeline-inverted">
 					        <div class="timeline-badge">
 					          <a><i class="fa fa-circle" id=""></i></a>
 					        </div>
@@ -384,13 +386,13 @@
 					</ul>
 					
 				</section>
-
+			-->
 
 
 				<!--===============================-->
 				<!--== Blog =============-->
 				<!--===============================-->
-			<section id="blog" class="row">
+			<!-- <section id="blog" class="row">
 				<div class="title-start col-md-4 col-md-offset-4"><h2>Blog</h2>	
 				<p class="sub-text text-center">Awesome news and articles from us</p>	
 				</div>
@@ -403,7 +405,7 @@
 					    <h3>
 					    Posted by <a href="#">Shuvo</a><span class="date-line"> on April 1st</span>
 					    </h3>
-					    <img class="blog-image" src="images/demo/blog2.jpg" width="100%" height="250" alt="Blog Image 2"/>
+					    <img class="blog-image" src="{% static 'images/demo/blog2.jpg' %}" width="100%" height="250" alt="Blog Image 2"/>
 					    
 					    <p class="firstpara"><span class="firstcharacter">P</span>ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p> 
 
@@ -414,7 +416,7 @@
 					  <div class="blog col-md-4">
 					    <h2 class="blog-head">Evento at NY</h2>
 					    <h3>Posted by <a href="#">Shuvo</a><span class="date-line"> on April 30th</span></h3>
-					    <img class="blog-image" src="images/demo/blog1.jpg"  width="100%" height="250" alt="Blog Image 2"/>
+					    <img class="blog-image" src="{% static 'images/demo/blog1.jpg' %}"  width="100%" height="250" alt="Blog Image 2"/>
 					    <p class="firstpara"><span class="firstcharacter">G</span>et out of here!" bellowed a brawny man with a beard as long as Charlie's arm. "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante."Pellentesque habitant morbi tristique." said Charlie.Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 					    <button class="button-info read-more">Read More</button>
 					  </div>
@@ -422,7 +424,7 @@
 					    <h2 class="blog-head">US Feast</h2>
 
 					    <h3>Posted by <a href="#">Shuvo</a><span class="date-line"> on April 1st</span></h3>
-					    <img class="blog-image" src="images/demo/blog2.jpg" width="100%" height="250" alt="Blog Image 2"/>
+					    <img class="blog-image" src="{% static 'images/demo/blog2.jpg' %}" width="100%" height="250" alt="Blog Image 2"/>
 					    <p class="firstpara"><span class="firstcharacter">P</span>ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 					    <button class="button-info read-more">Read More</button>
 					  </div>
@@ -432,7 +434,7 @@
 				<!--===============================-->
 				<!--== Pricing Tables =============-->
 				<!--===============================-->
-				<section id="prices" class="row">
+				<!-- <section id="prices" class="row">
 				<div class="title-start events-menu col-md-4 col-md-offset-4">
 				<h2>Pricing</h2>
 				<p class="sub-text text-center">Details of our reasonable pricing</p>
@@ -455,7 +457,7 @@
 								<h5 class="order"><a href="#">Order Now</a></h5>
 							</div><!--.plan-->
 
-							<div class="plan">
+							<!-- <div class="plan">
 								<h3 class="name">Gold</h3>
 								<h4 class="price">$20,000<span>/Day</span></h4>
 
@@ -466,9 +468,9 @@
 								</ul>
 
 								<h5 class="order"><a href="#">Order Now</a></h5>
-							</div><!--.plan-->
+							</div>.plan -->
 
-							<div class="plan">
+							<!-- <div class="plan">
 								<h3 class="name">Platinum</h3>
 								<h4 class="price">$30,000<span>/Day</span></h4>
 
@@ -480,14 +482,14 @@
 
 								<h5 class="order"><a href="#">Order Now</a></h5>
 							</div><!--.plan-->
-						</div><!--.pricing-table-->
-					</div><!--.wrap-->
+						<!-- </div>.pricing-table -->
+					<!-- </div><!--.wrap-->
 					</div>
-
+<!-- 
 						<div class="col-sm-11  pricing-table visible-sm visible-xs">
 					       <div class="plan">
-								<h3 class="name">Silver</h3>
-								<h4 class="price">$10,000<span>/Day</span></h4>
+								<h3 class="name">Silver</h3> -->
+								<!-- <h4 class="price">$10,000<span>/Day</span></h4>
 
 								<ul class="details">
 									<li><strong>100</strong> Seats</li>
@@ -496,9 +498,9 @@
 								</ul>
 
 								<h5 class="order"><a href="#">Order Now</a></h5>
-							</div><!--.plan-->
-						</div>	
-						<div class="col-sm-11  pricing-table visible-sm visible-xs">
+							</div>
+						</div>	 --> -->
+						<!-- <div class="col-sm-11  pricing-table visible-sm visible-xs">
 					       <div class="plan">
 								<h3 class="name">Gold</h3>
 								<h4 class="price">$20,000<span>/Day</span></h4>
@@ -510,8 +512,8 @@
 								</ul>
 
 								<h5 class="order"><a href="#">Order Now</a></h5>
-							</div><!--.plan-->
-						</div>
+							</div>.plan -->
+						<!-- </div>
 						<div class="col-sm-11  pricing-table visible-sm visible-xs">
 
 							<div class="plan">
@@ -522,13 +524,13 @@
 									<li><strong>500</strong> Seats</li>
 									<li><strong>7 Star</strong> Hotel</li>
 									<li><strong>Gifts</strong></li>
-								</ul>
-
+								</ul> --> -->
+<!-- 
 								<h5 class="order"><a href="#">Order Now</a></h5>
 							</div><!--.plan-->
 
-						</div>	
-				</section>
+						<!-- </div>	 -->
+				<!-- </section> --> --> --> -->
 				<!--==========-->
 
 				<!--==========-->
@@ -536,7 +538,7 @@
 				<!--== Team =============-->
 				<!--===============================-->
 				
-				<section id="team" class="team"> 
+				<!-- <section id="team" class="team"> 
 					<div class="container">
 				<div class="title-start team-menu col-md-4 col-md-offset-4">
 					<h2 class="team-heading">Our Team</h2>
@@ -607,13 +609,13 @@
 					</div>
 
 				</section>
-				</div></div>
+				</div></div> -->
 				<!--==========-->
 				<!--==========-->
 				<!--===============================-->
 				<!--== Testimonial =============-->
 				<!--===============================-->
-		<section id="testimonial" class="testimonial-area">
+		<!-- <section id="testimonial" class="testimonial-area">
             <div class="container">
                 <div class="title-start col-md-4 col-md-offset-4">
 					<h2 class="team-heading white">Testimonial</h2>
@@ -645,16 +647,16 @@
                             <small>Developer</small>
                         </div>
                     </div>
-                </div>
-            </div><!-- container -->
-        </section><!-- testimonial -->
+                </div> -->
+            <!-- </div>
+        </section>testimonial
 				
         		<div class="content mcontent">
 				<div id="gotop" class="gotop fa fa-arrow-up"></div>
 			</div>
-		</div>
+		</div> -->
 		 <!-- Contact Area -->
-
+<!-- 
         <section id="contact" class="mapWrap">
             <div id="googleMap" style="width:100%;"></div>
             <div id="contact-area">
@@ -691,9 +693,10 @@
                               <button type="submit" class="btn medium">Let us know</button>
                             </form>   
                         </div>
-                    </div>
+                    </div> -->
                 </div><!-- container -->
             </div><!-- contact-area -->
+			<!--
             <div id="social">
                 <div class="container">
                     <div class="row">
@@ -709,9 +712,10 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- social -->
-        </section><!-- contact -->
-		<footer>
+            </div>
+		        </section> -->
+		<!-- contact -->
+	<!--	<footer>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -722,23 +726,23 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>-->
 
 
 		<!--== Javascript Files ==-->
 		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<script src="js/jquery-2.1.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.scrollTo.js"></script>
-		<script src="js/jquery.nav.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/jquery.accordion.js"></script>
-		<script src="js/jquery.placeholder.js"></script>
-		<script src="js/jquery.fitvids.js"></script>
-		<script src="js/gmap3.js"></script>
-		<script src="js/fancySelect.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="{% static 'events/js/jquery-2.1.0.min.js' %}"></script>
+		<script src="{% static 'events/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'events/js/jquery.scrollTo.js' %}"></script>
+		<script src="{% static 'events/js/jquery.nav.js' %}"></script>
+		<script src="{% static 'events/js/jquery.flexslider.js' %}"></script>
+		<script src="{% static 'events/js/jquery.accordion.js' %}"></script>
+		<script src="{% static 'events/js/jquery.placeholder.js' %}"></script>
+		<script src="{% static 'events/js/jquery.fitvids.js' %}"></script>
+		<script src="{% static 'events/js/gmap3.js' %}"></script>
+		<script src="{% static 'events/js/fancySelect.js' %}"></script>
+		<script src="{% static 'events/js/owl.carousel.min.js' %}"></script>
+		<script src="{% static 'events/js/main.js' %}"></script>
 		<script type="text/javascript"> 
 
 		$(document).ready(function() {
@@ -755,3 +759,4 @@
 		</script>
 	</body>
 </html>
+
