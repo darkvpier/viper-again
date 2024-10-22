@@ -1,0 +1,24 @@
+[project]
+name = "viper-again"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asgiref>=3.8.1",
+    "dj-database-url>=2.2.0",
+    "django-heroku>=0.3.1",
+    "django-quill-editor>=0.1.42",
+    "django-widget-tweaks>=1.5.0",
+    "django>=5.1.2",
+    "gunicorn>=23.0.0",
+    "packaging>=24.1",
+    "pillow>=11.0.0",
+    "psycopg2>=2.9.10",
+    "pytz>=2024.2",
+    "setuptools>=75.2.0",
+    "sqlparse>=0.5.1",
+    "typing-extensions>=4.12.2",
+    "wheel>=0.44.0",
+    "whitenoise>=6.7.0",
+]

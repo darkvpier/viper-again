@@ -1,0 +1,14 @@
+.venv
+*/.venv
+
+uv.lock
+*/uv.lock
+
+.pythonversion
+*/.pythonversion
+
+.vscode
+*/.vscode
+
+*/__pycache__
+__pycache__
